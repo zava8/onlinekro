@@ -11,7 +11,6 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(47, 47, 65, 0); }
@@ -21,7 +20,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: u5, Helvetica, Arial, sans-serif, -apple-system;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -119,7 +117,6 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em; }
 
 pre {
@@ -4054,12 +4051,10 @@ a {
 p {
   line-height: 26px;
   color: #5C5A5A;
-  font-family: u5, Helvetica, Arial, sans-serif, -apple-system;
   margin-bottom: 20px; }
 
 h1 {
   font-size: 24px;
-  font-family: u5, "Playfair Display", serif, -apple-system;
   line-height: 1.2;
   margin-bottom: 20px; }
   @media (min-width: 768px) {
@@ -4068,7 +4063,6 @@ h1 {
       line-height: 1.2; } }
 h2 {
   font-size: 20px;
-  font-family: u5, "Playfair Display", serif, -apple-system;
   line-height: 1.4;
   margin-bottom: 10px; }
   @media (min-width: 768px) {
@@ -4282,7 +4276,6 @@ ol {
         animation-delay: 0.6s; }
   .main-menu-mobile ul {
     font-size: 30px;
-    font-family: u5, "Playfair Display", serif, -apple-system;
     text-align: center;
     list-style: none;
     padding: 0;

@@ -4,12 +4,12 @@ a {
 p {
   line-height: 26px;
   color: $steel;
-  font-family: $font-family-base;
+  // font-family: $font-family-base;
   margin-bottom: 20px;
 }
 h1 {
   font-size: 24px;
-  font-family: $font-family-heading;
+  // font-family: $font-family-heading;
   line-height: 1.2;
   margin-bottom: 20px;
   @include media-breakpoint-up(md) {
@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   font-size: 20px;
-  font-family: $font-family-heading;
+  // font-family: $font-family-heading;
   line-height: 1.4;
   margin-bottom: 10px;
   @include media-breakpoint-up(md) {

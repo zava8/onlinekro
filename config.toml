@@ -24,7 +24,7 @@ themesDir = "themes"
     mobile_height = "36px"
     desktop = "images/logo/logo.svg"
     desktop_height = "36px"
-    alt = "Serif - A Hugo Business Theme"
+    alt = "seriph - A hugo bizns thim"
 
   [params.seo]
     meta_twitter_site = "@etphor"
