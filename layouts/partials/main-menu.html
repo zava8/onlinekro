@@ -1,0 +1,23 @@
+<div id="main-menu" class="main-menu">
+  <ul>
+    <li>
+    <select id="fontselectid">
+      <option value="u5" selected>INglis1</option>
+      <option value="u5cdot" selected>INglis2</option>
+      <option value="HinDi">HinDi1</option>
+      <option value="Hnskrit">HinDi2</option>
+    </select>
+    </li>    
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ $active := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+    {{ $active = or $active (eq .Name $currentPage.Title) }}
+    <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
+      <a href="{{.URL}}">
+        {{ .Pre }}
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</div>

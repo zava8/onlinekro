@@ -4704,9 +4704,7 @@ ol {
   color: #686868; }
 
 body {
-  font-size: 16px;
-  line-height: 1.2;
-  font-family: u5, Helvetica, Arial, sans-serif, -apple-system; }
+  line-height: 1.2; }
   @media (min-width: 768px) {
     body {
       font-size: 16px;
